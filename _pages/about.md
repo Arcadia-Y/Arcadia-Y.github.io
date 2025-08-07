@@ -6,12 +6,12 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: tmp_prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office 6394</p>
+    <p>1210 W Dayton St</p>
+    <p>Madison, WI</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,9 +26,11 @@ announcements:
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
+I'm Chengxi Yang (杨承羲), a third-year undergraduate computer science student at from [ACM Honor Class](https://acm.sjtu.edu.cn), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I'm currently a reserach intern at [University of Wisconsin-Madison](https://www.wisc.edu/), co-advised by Prof. [Thomas Reps](https://pages.cs.wisc.edu/~reps/) and Prof. [Tej Chajed](https://www.chajed.io/). Prior to that, I was fortunate to work with Prof. [Qinxiang Cao](https://dblp.org/pid/141/1017.html) at SJTU.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research interest mainly lies in formal verification, aiming to make verified systems and theories more practical and efficient. I'm also broadly interested in other areas related to programming languages, such as program analysis, compiler design and AI4Math.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Apart from computer science, I have various interest in my life:
+- I love music🎵. I'm an amateur violinist🎻 and have participated in 3 different student symphony orchestra. I also enjoy writing music of my own, feel free to check out my [NetEase Music Account](https://music.163.com/#/artist?id=46591493).
+- I'm a fan of [anime](https://bgm.tv/user/519941)📺 and [video games](https://steamcommunity.com/profiles/76561198359757689)🎮.
+- I like reading a little philosophy, such as articles from [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/).
