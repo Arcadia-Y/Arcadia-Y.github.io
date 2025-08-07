@@ -27,7 +27,7 @@ announcements:
 ---
 I'm Chengxi Yang (杨承羲), a third-year undergraduate computer science student at from [ACM Honor Class](https://acm.sjtu.edu.cn), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I'm currently a reserach intern at [University of Wisconsin-Madison](https://www.wisc.edu/), co-advised by Prof. [Thomas Reps](https://pages.cs.wisc.edu/~reps/) and Prof. [Tej Chajed](https://www.chajed.io/). Prior to that, I was fortunate to work with Prof. [Qinxiang Cao](https://dblp.org/pid/141/1017.html) at SJTU.
 
-My research interest mainly lies in **formal verification**, aiming to make verified systems and theories more practical and efficient. I'm also broadly interested in other areas related to programming languages, such as program analysis, compiler design and AI4Math.
+My research interest mainly lies in **formal verification**, aiming to make verifying systems and theories more practical and efficient. I'm also broadly interested in other areas related to programming languages, such as program analysis, compiler design and AI4Math.
 
 Apart from computer science, I have various interest in my life:
 - I love music🎵. I'm an amateur violinist🎻 and have participated in 3 different student symphony orchestra. I also enjoy writing music of my own, feel free to check out my [NetEase Music Account](https://music.163.com/#/artist?id=46591493).
