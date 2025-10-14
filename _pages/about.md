@@ -25,7 +25,7 @@ announcements:
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
-I'm Chengxi Yang (杨承羲), a senior undergraduate computer science student from [ACM Honor Class](https://acm.sjtu.edu.cn), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I'm currently a reserach intern at [University of Wisconsin-Madison](https://www.wisc.edu/), co-advised by Prof. [Thomas Reps](https://pages.cs.wisc.edu/~reps/) and Prof. [Tej Chajed](https://www.chajed.io/). Prior to that, I was fortunate to work with Prof. [Qinxiang Cao](https://dblp.org/pid/141/1017.html) at SJTU.
+I'm Chengxi Yang (杨承羲), a senior undergraduate computer science student from [ACM Honor Class](https://acm.sjtu.edu.cn), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I'm currently a research intern at [University of Wisconsin-Madison](https://www.wisc.edu/), co-advised by Prof. [Thomas Reps](https://pages.cs.wisc.edu/~reps/) and Prof. [Tej Chajed](https://www.chajed.io/). Prior to that, I was fortunate to work with Prof. [Qinxiang Cao](https://dblp.org/pid/141/1017.html) at SJTU.
 
 My research interest mainly lies in **programming languages**, especially **formal verification**, aiming to make verification more practical and efficient. I'm also broadly interested in other areas related to PL, such as program analysis, compiler design and AI4FTP (AI for Formal Theorem Proving).
 
