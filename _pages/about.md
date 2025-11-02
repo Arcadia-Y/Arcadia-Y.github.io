@@ -25,11 +25,11 @@ announcements:
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
-I'm Chengxi Yang (杨承羲), a senior undergraduate computer science student from [ACM Honor Class](https://acm.sjtu.edu.cn), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I'm currently a research intern at [University of Wisconsin-Madison](https://www.wisc.edu/), co-advised by Prof. [Thomas Reps](https://pages.cs.wisc.edu/~reps/) and Prof. [Tej Chajed](https://www.chajed.io/). Prior to that, I was fortunate to work with Prof. [Qinxiang Cao](https://dblp.org/pid/141/1017.html) at SJTU.
+I'm Chengxi Yang (杨承羲), a senior undergraduate computer science student from [ACM Honor Class](https://acm.sjtu.edu.cn), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). I'm currently a research intern at [University of Wisconsin-Madison](https://www.wisc.edu/), co-advised by Prof. [Thomas Reps](https://pages.cs.wisc.edu/~reps/) and Prof. [Tej Chajed](https://www.chajed.io/). I was also fortunate to work with Prof. [Qinxiang Cao](https://dblp.org/pid/141/1017.html) at SJTU.
 
-My research interest mainly lies in **programming languages**, especially **formal verification**, aiming to make verification more practical and efficient. I'm also broadly interested in other areas related to PL, such as program analysis, compiler design and AI4FTP (AI for Formal Theorem Proving).
+My research interest mainly lies in **programming languages**, especially **formal verification**, aiming to develop elegant theories to solve real-world problems. I'm also broadly interested in other areas related to PL, such as program analysis, compiler design and AI4FTP (AI for Formal Theorem Proving).
 
-I'm applying for a CS Ph.D. starting in Fall 2026. Please feel free to [contact me](mailto:cyang575@wisc.edu) if you are interested in my research!
+I'm applying for a CS PhD starting in Fall 2026. Please feel free to check out my [CV](https://arcadia-y.github.io/cv/) and [contact me](mailto:arcadia-y@sjtu.edu.cn) if you are interested in my research!
 
 Apart from computer science, I have various interest in my life:
 - I love music🎵. I'm an amateur violinist🎻 and have participated in 3 different student symphony orchestra. I also enjoy writing music of my own, feel free to check out my [NetEase Music Account](https://music.163.com/#/artist?id=46591493).
