@@ -2,8 +2,6 @@
  * Themes
  ******************************************************************************/
 
-@use "sass:color";
-
 :root {
   color-scheme: light;
   --global-bg-color: #fcf8f2;
@@ -20,12 +18,7 @@
   --global-divider-color: rgba(42, 34, 30, 0.12);
   --global-card-bg-color: #fffdf9;
   --global-highlight-color: #8d3f24;
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
+  --global-back-to-top-bg-color: #{rgba($black-color, 0.4)};
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #fffdf9;
   --global-newsletter-text-color: #2a221e;
@@ -91,12 +84,7 @@ html[data-theme="dark"] {
   --global-distill-app-color: #c9bcb2;
   --global-divider-color: #3a312d;
   --global-card-bg-color: #241d19;
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
+  --global-back-to-top-bg-color: #{rgba($white-color, 0.5)};
   --global-back-to-top-text-color: #181311;
   --global-newsletter-bg-color: #241d19;
   --global-newsletter-text-color: #e8ddd4;
