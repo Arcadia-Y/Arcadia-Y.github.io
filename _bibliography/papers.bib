@@ -23,13 +23,25 @@
 @misc{wu2025qcppracticalseparationlogicbased,
       title={QCP: A Practical Separation Logic-based C Program Verification Tool}, 
       author={Xiwei Wu and Yueyang Feng and Xiaoyang Lu and Tianchuan Lin and Kan Liu and Zhiyi Wang and Shushu Wu and Lihan Xie and Chengxi Yang and Hongyi Zhong and Naijun Zhan and Zhenjiang Hu and Qinxiang Cao},
-      year={2025},
+  year={2026},
       arxiv={2505.12878},
       archivePrefix={arXiv},
       primaryClass={cs.PL},
-      abstract={As software systems increase in size and complexity dramatically, ensuring their correctness, security, and reliability becomes an increasingly formidable challenge. Despite significant advancements in verification techniques and tools, there still remain substantial difficulties when applying these tools to complex, real-world scenarios. To address these difficulties, this paper introduces a novel verification tool, calledQualified C Programming Verifier (QCP). QCP incorporates a refined front-end assertion language to enhance user interaction. The proposed assertion language aims to lower the entry barrier for verification tools, improve proof efficiency by improving automation, and facilitate a deeper understanding of both the program and its verification results.},
-      url={https://arxiv.org/abs/2505.12878}, 
-      selected={true},
+  note={Accepted at Theoretical Aspects of Software Engineering (TASE), 2026 (to appear)},
+      abstract={As software systems increase in size and complexity dramatically, ensuring their correctness, security, and reliability becomes an increasingly formidable challenge. Despite significant advancements in verification techniques and tools, their practical application to complex, real-world systems is often hindered by critical gaps in both automation and expressiveness.
+      To address these difficulties, this paper presents \textbf{Qualified C Programming Verifier (QCP)}, a novel verification tool that integrates annotation-based automatic verification with interactive proving using Rocq. QCP employs symbolic execution and a separation logic entailment solver to automatically discharge many verification obligations, while deferring more complex obligations to Rocq for manual proof. Furthermore, QCP includes a VS Code extension designed to enhance proof efficiency and support a deeper understanding of both the program behavior and verification outcomes.},
+      selected={false},
 }
+
+@misc{wu2026intuitiveverificationsequentialprograms,
+  title={Intuitive Verification of Sequential Programs Using Hybrid Reasoning},
+  author={Shushu Wu and Xiwei Wu and Chengxi Yang and Qinxiang Cao},
+  year={2026},
+  note={Accepted at Theoretical Aspects of Software Engineering (TASE), 2026 (to appear)},
+  abstract={Verifying the functional correctness of real-world code with complex algorithms requires reasoning about both implementation correctness and algorithm correctness. Implementation correctness, which relates concrete programs to abstract functional models, is inherently relational, yet is traditionally formalized using standard Hoare logic alone.
+
+This paper proposes a hybrid reasoning approach that combines relational Hoare logic and standard Hoare logic. Our key insight is that verifying implementation correctness naturally calls for relational Hoare logic, while algorithm correctness is well-suited to standard Hoare logic. Compared to traditional verifications that rely exclusively on standard Hoare logic, our approach simplifies proofs and offers more intuitive reasoning patterns. We demonstrate this in a setting where the concrete language is a C-like imperative language and the abstract algorithm is written in a simple nondeterministic functional language. Through case studies on binary search trees and merge sort, we show how our hybrid reasoning approach addresses challenges in verifying complex algorithms, reduces proof complexity, and enhances clarity.},
+  selected={false},
 }
+
 

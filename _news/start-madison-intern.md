@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Arrive in US and start my research intern at UW-Madison!
+Arrive in the US and start my research intern at UW-Madison!
