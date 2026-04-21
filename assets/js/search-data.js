@@ -23,8 +23,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-arrive-in-us-and-start-my-research-intern-at-uw-madison",
-          title: 'Arrive in US and start my research intern at UW-Madison!',
+        },{id: "news-arrive-in-the-us-and-start-my-research-intern-at-uw-madison",
+          title: 'Arrive in the US and start my research intern at UW-Madison!',
+          description: "",
+          section: "News",},{id: "news-end-my-fantastic-research-intern-at-madpl-and-get-back-to-china",
+          title: 'End my fantastic research intern at MadPL and get back to China.',
+          description: "",
+          section: "News",},{id: "news-committed-to-uc-berkeley-for-my-phd",
+          title: 'Committed to UC Berkeley for my PhD!',
           description: "",
           section: "News",},{
         id: 'social-email',
