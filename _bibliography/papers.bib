@@ -1,9 +1,17 @@
 ---
 ---
 
+@misc{yang2026fixingfixpoint,
+  title={Fixing the Fixpoint: A Sound Convergence Criterion for Incremental Recursive Computation},
+  author={Chengxi Yang and Tej Chajed and Thomas Reps},
+  year={2026},
+  note={Submitted to OOPSLA 2026; currently under review.},
+  selected={true},
+}
+
 @InProceedings{10.1007/978-3-031-98208-8_4,
-  author="Yang, Chengxi
-  and Wu, Shushu
+  author="Yang*, Chengxi
+  and Wu*, Shushu
   and Cao, Qinxiang",
   editor="R{\"u}mmer, Philipp
   and Wu, Zhilin",
@@ -17,31 +25,40 @@
   pages="49--66",
   abstract="Current approaches for formal verification of algorithms face important limitations. For specification, they cannot express algorithms naturally and concisely, especially for algorithms with states and flexible control flow. For verification, formal proof based on Hoare logic cannot reflect the logical structure of natural proof. To address these challenges, we introduce a formal framework for naturally specifying and verifying sequential algorithms in Coq. We use the state relation monad to integrate Coq's expressive type system with the flexible control flow of imperative languages. It supports nondeterministic operations and customizable program states, enabling specifying algorithms at an appropriate level of abstraction. For verification, we build a Hoare logic for the monad and propose a novel two-stage proof approach that separates natural logical reasoning from mechanical composition. It reflects the logical structure of natural proof, enhancing modularity and readability. We evaluate the framework by formalizing the Depth-First Search (DFS) algorithm and verifying the Knuth-Morris-Pratt (KMP) algorithm.",
   isbn="978-3-031-98208-8",
+  annotation={* Equal contribution.},
   selected={true},
 }
 
-@misc{wu2025qcppracticalseparationlogicbased,
-      title={QCP: A Practical Separation Logic-based C Program Verification Tool}, 
-      author={Xiwei Wu and Yueyang Feng and Xiaoyang Lu and Tianchuan Lin and Kan Liu and Zhiyi Wang and Shushu Wu and Lihan Xie and Chengxi Yang and Hongyi Zhong and Naijun Zhan and Zhenjiang Hu and Qinxiang Cao},
+@misc{wu2026assertionsfree,
+  title={Assertions for Free: Transferring Invariants from Algorithm to Implementation Proofs (Functional Pearl)},
+  author={Shushu Wu and Chengxi Yang and Xiwei Wu and Qinxiang Cao},
   year={2026},
-      arxiv={2505.12878},
-      archivePrefix={arXiv},
-      primaryClass={cs.PL},
-  note={Accepted at Theoretical Aspects of Software Engineering (TASE), 2026 (to appear)},
-      abstract={As software systems increase in size and complexity dramatically, ensuring their correctness, security, and reliability becomes an increasingly formidable challenge. Despite significant advancements in verification techniques and tools, their practical application to complex, real-world systems is often hindered by critical gaps in both automation and expressiveness.
-      To address these difficulties, this paper presents \textbf{Qualified C Programming Verifier (QCP)}, a novel verification tool that integrates annotation-based automatic verification with interactive proving using Rocq. QCP employs symbolic execution and a separation logic entailment solver to automatically discharge many verification obligations, while deferring more complex obligations to Rocq for manual proof. Furthermore, QCP includes a VS Code extension designed to enhance proof efficiency and support a deeper understanding of both the program behavior and verification outcomes.},
-      selected={false},
+  note={Accepted at ICFP 2026.},
+  selected={false},
+}
+
+@misc{wu2025qcppracticalseparationlogicbased,
+  title={QCP: A Practical Separation Logic-based C Program Verification Tool},
+  author={Xiwei Wu and Yueyang Feng* and Xiaoyang Lu* and Tianchuan Lin and Kan Liu and Zhiyi Wang and Shushu Wu and Lihan Xie and Chengxi Yang and Hongyi Zhong and Naijun Zhan and Zhenjiang Hu and Qinxiang Cao},
+  year={2026},
+  arxiv={2505.12878},
+  archivePrefix={arXiv},
+  primaryClass={cs.PL},
+  note={In TASE 2026.},
+  abstract={As software systems increase in size and complexity dramatically, ensuring their correctness, security, and reliability becomes an increasingly formidable challenge. Despite significant advancements in verification techniques and tools, their practical application to complex, real-world systems is often hindered by critical gaps in both automation and expressiveness.
+  To address these difficulties, this paper presents \textbf{Qualified C Programming Verifier (QCP)}, a novel verification tool that integrates annotation-based automatic verification with interactive proving using Rocq. QCP employs symbolic execution and a separation logic entailment solver to automatically discharge many verification obligations, while deferring more complex obligations to Rocq for manual proof. Furthermore, QCP includes a VS Code extension designed to enhance proof efficiency and support a deeper understanding of both the program behavior and verification outcomes.},
+  annotation={* Equal contribution.},
+  selected={false},
 }
 
 @misc{wu2026intuitiveverificationsequentialprograms,
   title={Intuitive Verification of Sequential Programs Using Hybrid Reasoning},
   author={Shushu Wu and Xiwei Wu and Chengxi Yang and Qinxiang Cao},
   year={2026},
-  note={Accepted at Theoretical Aspects of Software Engineering (TASE), 2026 (to appear)},
+  doi={10.1007/978-3-032-30693-7_26},
+  note={In TASE 2026.},
   abstract={Verifying the functional correctness of real-world code with complex algorithms requires reasoning about both implementation correctness and algorithm correctness. Implementation correctness, which relates concrete programs to abstract functional models, is inherently relational, yet is traditionally formalized using standard Hoare logic alone.
 
 This paper proposes a hybrid reasoning approach that combines relational Hoare logic and standard Hoare logic. Our key insight is that verifying implementation correctness naturally calls for relational Hoare logic, while algorithm correctness is well-suited to standard Hoare logic. Compared to traditional verifications that rely exclusively on standard Hoare logic, our approach simplifies proofs and offers more intuitive reasoning patterns. We demonstrate this in a setting where the concrete language is a C-like imperative language and the abstract algorithm is written in a simple nondeterministic functional language. Through case studies on binary search trees and merge sort, we show how our hybrid reasoning approach addresses challenges in verifying complex algorithms, reduces proof complexity, and enhances clarity.},
   selected={false},
 }
-
-
