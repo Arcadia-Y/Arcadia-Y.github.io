@@ -1,50 +1,32 @@
 ---
-layout: default
-title: Under Maintenance
+layout: about
+title: about
 permalink: /
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+miscellaneous: |
+  Apart from computer science, I have various interest in my life:
+  - I love music🎵. I'm an amateur violinist🎻 and have participated in 3 different student symphony orchestra. I also enjoy writing music of my own, feel free to check out my [NetEase Music Account](https://music.163.com/#/artist?id=46591493).
+  - I'm a fan of [anime](https://bgm.tv/user/519941)📺 and [video games](https://steamcommunity.com/profiles/76561198359757689)🎮.
+  - I like reading a little philosophy, such as articles from [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/).
+
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
+I'm Chengxi Yang (杨承羲), a senior undergraduate computer science student from [ACM Honor Class](https://acm.sjtu.edu.cn), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), and an incoming PhD student at [UC Berkeley](https://www.berkeley.edu/). I am currently a research assistant advised by Prof. [Qinxiang Cao](https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/caoqinxiang) at SJTU. I was also fortunate to work with Prof. [Thomas Reps](https://pages.cs.wisc.edu/~reps/) and Prof. [Tej Chajed](https://www.chajed.io/) as a research intern at [UW-Madison](https://www.wisc.edu/).
 
-<style>
-  .maintenance-home {
-    min-height: calc(100vh - 14rem);
-    display: grid;
-    place-items: center;
-    padding: 4rem 1rem;
-    text-align: center;
-  }
-
-  .maintenance-home__inner {
-    max-width: 42rem;
-  }
-
-  .maintenance-home__eyebrow {
-    margin-bottom: 1rem;
-    color: var(--global-theme-color);
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  .maintenance-home h1 {
-    margin-bottom: 1rem;
-    font-size: clamp(2.5rem, 8vw, 5rem);
-    line-height: 1;
-  }
-
-  .maintenance-home p {
-    margin: 0 auto;
-    max-width: 32rem;
-    color: var(--global-text-color-light);
-    font-size: 1.1rem;
-    line-height: 1.7;
-  }
-</style>
-
-<main class="maintenance-home" aria-labelledby="maintenance-title">
-  <div class="maintenance-home__inner">
-    <div class="maintenance-home__eyebrow">Temporary notice</div>
-    <h1 id="maintenance-title">Under Maintenance</h1>
-    <p>This homepage is temporarily offline. Please check back soon.</p>
-  </div>
-</main>
+My research interest mainly lies in **programming languages** and **formal methods**, aiming to develop elegant theories to solve real-world problems. I'm also broadly interested in other areas related to PL/FM, such as the intersection of AI and FM.
