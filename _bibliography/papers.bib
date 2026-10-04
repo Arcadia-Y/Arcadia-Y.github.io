@@ -1,12 +1,17 @@
 ---
 ---
 
-@misc{yang2026fixingfixpoint,
-  title={Fixing the Fixpoint: A Sound Convergence Criterion for Incremental Recursive Computation},
-  author={Chengxi Yang and Tej Chajed and Thomas Reps},
-  year={2026},
-  note={Submitted to OOPSLA 2026; currently under review.},
-  selected={true},
+@misc{yang2026fixingfixpointformaltheory,
+      title={Fixing the Fixpoint: A Formal Theory of Convergence Detection for Incremental Recursive Computation}, 
+      author={Chengxi Yang and Tej Chajed and Thomas Reps},
+      year={2026},
+      archivePrefix={arXiv},
+      primaryClass={cs.PL},
+      url={https://arxiv.org/abs/2610.00530}, 
+      arxiv={2610.00530},
+      note={Major Revision at OOPSLA 2026; revised version submitted to OOPSLA 2027},
+      abstract={Modern incremental computation theories like DBSP have enabled efficient incrementalization of general recursive computations. To do so, they require a runtime Fixpoint Detection (FPD) mechanism to detect whether an iterative computation has reached the fixpoint and thus should terminate. However, we show that the commonly suggested "FirstZero" strategy is unsound even in naturally arising cases, and that exact FPD is impossible for arbitrary DBSP circuits with expressive primitive nodes. This issue reveals a fundamental gap between the mathematical specification and implementations of such theories. To fill this gap, using DBSP as a core calculus, we develop a formal theory of convergence detection. Within this theory, we define internal convergence (IntConv) as a declarative criterion corresponding to the internal-state-stability strategy used by practical implementations, and prove that IntConv is a sufficient condition for external convergence. We then define the state fixpoint (StFP) predicate and a sound and complete StFP detector. Combining the StFP detector with fixed-input and zero-output checks yields a sound and complete IntConv detector. Moreover, for a large class of useful circuits (programs) including Datalog queries, nested while queries, and their incrementally optimized versions, we show that IntConv is not only sound but also complete (meaning any convergence in the theory implies the convergence in our criterion). As a result, our theory provides semantic guarantees for convergence detection on all these circuits. Our results are formally verified in Lean, with the formalization available at https://github.com/Arcadia-Y/fixing-the-fixpoint/.},
+      selected={true},
 }
 
 @InProceedings{10.1007/978-3-031-98208-8_4,
@@ -26,15 +31,26 @@
   abstract="Current approaches for formal verification of algorithms face important limitations. For specification, they cannot express algorithms naturally and concisely, especially for algorithms with states and flexible control flow. For verification, formal proof based on Hoare logic cannot reflect the logical structure of natural proof. To address these challenges, we introduce a formal framework for naturally specifying and verifying sequential algorithms in Coq. We use the state relation monad to integrate Coq's expressive type system with the flexible control flow of imperative languages. It supports nondeterministic operations and customizable program states, enabling specifying algorithms at an appropriate level of abstraction. For verification, we build a Hoare logic for the monad and propose a novel two-stage proof approach that separates natural logical reasoning from mechanical composition. It reflects the logical structure of natural proof, enhancing modularity and readability. We evaluate the framework by formalizing the Depth-First Search (DFS) algorithm and verifying the Knuth-Morris-Pratt (KMP) algorithm.",
   isbn="978-3-031-98208-8",
   annotation={* Equal contribution.},
-  selected={true},
+  selected={false},
 }
 
-@misc{wu2026assertionsfree,
-  title={Assertions for Free: Transferring Invariants from Algorithm to Implementation Proofs (Functional Pearl)},
-  author={Shushu Wu and Chengxi Yang and Xiwei Wu and Qinxiang Cao},
-  year={2026},
-  note={Accepted at ICFP 2026.},
-  selected={false},
+@article{10.1145/3828694,
+author = {Wu, Shushu and Yang, Chengxi and Wu, Xiwei and Cao, Qinxiang},
+title = {Assertions for Free: Transferring Invariants from Algorithm to Implementation Proofs (Functional Pearl)},
+year = {2026},
+issue_date = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {10},
+number = {ICFP},
+url = {https://doi.org/10.1145/3828694},
+doi = {10.1145/3828694},
+abstract = {Verifying the functional correctness of real-world code with complex algorithms can be decomposed into two layers: verifying that the concrete code refines an abstract algorithmic description, and proving the correctness of the formal description. However, in practice the two layers do not stay cleanly separated. For example, in the verification of the Knuth-Morris-Pratt (KMP) algorithm, the implementation correctness proof often re-establishes algorithm properties that have already been proved, as the concrete implementation relies on invariants that the traditional two-layer method provides no mechanism to transfer. This makes it difficult to clearly separate the concerns of algorithm correctness and implementation correctness. In this pearl, we show how a clean separation can be achieved within the two-layer method by combining two simple ideas: expressing implementation correctness as a relational Hoare quadruple, and introducing assertion annotations into the abstract program to capture key invariants. Properties established in the algorithm proof are thereby transferred directly to the implementation proof, eliminating the need to re-prove them. We demonstrate the effectiveness of this approach through non-trivial case studies, including the Knuth-Morris-Pratt pattern-matching algorithm and the depth-first search algorithm, showing that it leads to simpler proofs and a more modular verification process.},
+journal ={International Conference on Functional Programming (ICFP)},
+articleno = {296},
+numpages = {23},
+keywords = {relational Hoare logic, assertion annotations, program refinement, two-layer verification, mechanized verification},
+selected = {true},
 }
 
 @misc{wu2025qcppracticalseparationlogicbased,

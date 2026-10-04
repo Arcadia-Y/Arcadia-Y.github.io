@@ -27,7 +27,7 @@ miscellaneous: |
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
-I'm Chengxi Yang (杨承羲), a Computer Science PhD student at [UC Berkeley](https://www.berkeley.edu/) advised by Prof. [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). My research interest mainly lies in **programming languages** and **formal methods**, aiming to develop elegant theories to solve real-world problems. I'm also broadly interested in other areas related to PL/FM, such as the intersection of AI and FM.
+I'm Chengxi Yang (杨承羲), a Computer Science PhD student at [UC Berkeley](https://www.berkeley.edu/) advised by Prof. [Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). My research interest mainly lies in **programming languages** and **formal verification**, aiming to develop elegant theories to solve real-world problems. I'm also broadly interested in other areas related to PL/FV, such as the intersection of AI and PL.
 
 I obtained my Bachelor's degree from [ACM Honor Class](https://acm.sjtu.edu.cn), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), where I was a research assistant advised by Prof. [Qinxiang Cao](https://sai.sjtu.edu.cn/cn/facultydetails/zzjs/caoqinxiang). I was also fortunate to work with Prof. [Thomas Reps](https://pages.cs.wisc.edu/~reps/) and Prof. [Tej Chajed](https://www.chajed.io/) as a research intern at [MadPL](https://madpl.cs.wisc.edu/), [UW-Madison](https://www.wisc.edu/).
 
