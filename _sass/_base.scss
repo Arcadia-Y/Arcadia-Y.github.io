@@ -812,9 +812,9 @@ footer.sticky-bottom {
           }
         }
 
-        > em {
-          border-bottom: 1px solid;
-          font-style: normal;
+        strong {
+          color: var(--global-text-color);
+          font-weight: 700;
         }
 
         > span.more-authors {
@@ -825,6 +825,11 @@ footer.sticky-bottom {
           &:hover {
             color: var(--global-text-color);
             border-bottom: 1px dashed var(--global-text-color);
+          }
+
+          &[aria-expanded="true"] {
+            color: var(--global-text-color);
+            border-bottom: none;
           }
         }
       }
