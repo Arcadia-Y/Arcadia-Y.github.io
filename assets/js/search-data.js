@@ -35,6 +35,9 @@ ninja.data = [{
           section: "News",},{id: "news-graduate-from-sjtu",
           title: 'Graduate from SJTU!',
           description: "",
+          section: "News",},{id: "news-start-my-phd-journey-at-berkeley",
+          title: 'Start my PhD journey at Berkeley!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
